@@ -1,5 +1,5 @@
 {
-    "name": "PappiSnap! Snap Full Page to PDF with Paparazzi!",
+    "name": "PappiSnap! Snap Full Page PDF in Paparazzi!",
     "version": "0.1",
     "description": "PappiSnap! Instantly & easily create full webpage PDF, PNG, JPG or TIF of the current tab. One click opens the Paparazzi! Mac app.",
     "browser_action": {
