@@ -1,10 +1,8 @@
 <script>
-chrome.browserAction.onClicked.addListener(function(tab) {
-		
-    var newURL = "paparazzi:"+tab.url;
-    chrome.tabs.update(tab.id, {
-      url: newURL
-    });
-    
-});
+	chrome.browserAction.onClicked.addListener(function(tab) {
+	    var newURL = "paparazzi:"+tab.url;
+	    chrome.tabs.update(tab.id, {
+	      url: newURL
+	    });
+	});
 </script>
