@@ -1,5 +1,10 @@
 <script>
 chrome.browserAction.onClicked.addListener(function(tab) {
-	window.location="paparazzi:"+tab.url;
+		
+    var newURL = "paparazzi:"+tab.url;
+    chrome.tabs.update(tab.id, {
+      url: newURL
+    });
+    
 });
 </script>
